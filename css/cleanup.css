@@ -1,1 +1,33 @@
 /* write your override styles here */
+.tag {
+    display: none;
+}
+div[id^="tag"]{
+    display: none;
+}
+div#wall #tag-3[class="slick wicked"]:nth-child(3) {
+    display: none;
+}
+
+div#wall .tag-1:first-child {
+    display: none;
+}
+
+div#wall #tag-2:nth-child(2){
+    display: none;
+}
+
+div#wall .parent #tag-4{
+    display: none;
+}
+
+div#wall .parent:nth-child(5) #tag-5.slick{
+    display: none;
+}
+
+div#wall .parent:nth-child(6) div:nth-child(2) div#tag-6 {
+    display: none;
+}
+div#wall .parent:nth-child(7) div:first-child #tag-7 {
+    display: none;
+}
